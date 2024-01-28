@@ -351,13 +351,10 @@
   padding: 56px 20px 25px 20px;
 }
 
-.address {
+.footer__address {
   width: 240.521px;
   min-height: 98px;
   flex-shrink: 0;
-}
-
-.footer__address {
   padding-left: 13px;
 }
 
