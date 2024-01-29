@@ -71,7 +71,6 @@
 
 .address {
   width: 240.521px;
-  min-height: 98px;
   flex-shrink: 0;
 }
 
@@ -183,7 +182,6 @@
 
 .lots {
   width: 1100px;
-  min-height: 874px;
   padding: 181px 24px 33px 24px;
   color: #fff;
 }
@@ -204,7 +202,6 @@
   display: flex;
   flex-wrap: wrap;
   width: 1053px;
-  min-height: 562px;
   gap: 24px;
   list-style: none;
 }
@@ -229,7 +226,7 @@
 .card-link {
   display: block;
   width: 334px;
-  min-height: 563px;
+  height: 100%;
   flex-shrink: 0;
   text-decoration: none;
   transition: transform 0.3s ease;
@@ -244,7 +241,7 @@
   z-index: 1;
   display: flex;
   width: 334px;
-  min-height: 562px;
+  height: 100%;
   padding: 50px 40px;
   color: #fff;
   justify-content: space-between;
@@ -298,7 +295,6 @@
 .about {
   display: grid;
   width: 1100px;
-  min-height: 750px;
   padding: 146px 20px 10px 20px;
   grid-template-columns: 364px 700px;
 }
@@ -345,40 +341,13 @@
 .footer {
   display: flex;
   width: 1070px;
-  min-height: 170px;
   justify-content: space-between;
   margin: 84px 20px 58px 20px;
   padding: 56px 20px 25px 20px;
 }
 
 .footer__address {
-  width: 240.521px;
-  min-height: 98px;
-  flex-shrink: 0;
   padding-left: 13px;
-}
-
-.footer__address-link {
-  color: #000;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0.18px;
-  display: block;
-  text-underline-offset: 3px;
-}
-
-.footer__address-text {
-  color: #000;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0.18px;
-  display: block;
 }
 
 .footer__menu-list {
